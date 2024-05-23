@@ -30,7 +30,10 @@ dependencies:
   # mime: ^1.0.4
   # connectivity: ^0.4.5+6
   flutter_inappwebview:
-    path: ../
+    git:
+      url: https://github.com/shlg-telemedizin/shl_flutter_inappwebview.git
+      path: flutter_inappwebview
+      ref: accessibility_fix
 
 dependency_overrides:
   flutter_inappwebview_platform_interface:
